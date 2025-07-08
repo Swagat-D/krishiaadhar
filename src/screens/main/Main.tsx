@@ -1,4 +1,3 @@
-// src/screens/main/Main.tsx
 import React from 'react';
 import { View, Text, StyleSheet, Platform } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';

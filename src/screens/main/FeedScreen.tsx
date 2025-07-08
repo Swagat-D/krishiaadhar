@@ -1,4 +1,3 @@
-// src/screens/main/FeedScreen.tsx
 import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView,

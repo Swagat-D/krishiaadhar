@@ -18,10 +18,10 @@ export { default as CropHealthScreen } from './services/CropHealthScreen';
 export { default as ExpertVisitScreen } from './services/ExpertVisitScreen';
 
 // Crop Management Screens
-export { default as CropCalendarScreen } from './crop/CropCalendarScreen';
-export { default as CropCalendarCreateScreen } from './crop/CropCalendarCreateScreen';
-export { default as YourCropCalendarScreen } from './crop/YourCropCalendarScreen';
-export { default as CalendarScreen } from './crop/CalendarScreen';
+export { default as CropCalendarScreen } from './crop/CropCalenderScreen';
+export { default as CropCalendarCreateScreen } from './crop/CropCalenderCreateScreen';
+export { default as YourCropCalendarScreen } from './crop/YourCropCalenderScreen';
+export { default as CalendarScreen } from './crop/CalenderScreen';
 
 // Shared Screens
 export { default as SplashScreen } from './shared/SplashScreen';

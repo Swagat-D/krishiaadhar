@@ -1,4 +1,3 @@
-// src/screens/main/HomeScreen.tsx
 import React, { useState } from 'react';
 import {
   View,
@@ -74,7 +73,7 @@ const HomeScreen: React.FC = () => {
     {
       title: 'Smart Irrigation',
       subtitle: 'Automated water management',
-      imageSource: require('../../../assets/images/smartirrigation.webp'),
+      imageSource: require('../../../assets/images/smartirigation.webp'),
       onPress: () => (navigation as any).navigate('SmartIrrigation'),
       gradient: [colors.skyBlue, colors.primary] as const,
       icon: 'water',

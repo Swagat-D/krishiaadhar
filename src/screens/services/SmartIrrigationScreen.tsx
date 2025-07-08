@@ -1,4 +1,3 @@
-// src/screens/services/SmartIrrigationScreen.tsx
 import React, { useState, useEffect } from 'react';
 import {
   View,

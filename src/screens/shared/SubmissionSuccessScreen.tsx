@@ -1,4 +1,3 @@
-// src/screens/shared/SubmissionSuccessScreen.tsx
 import React, { useEffect } from 'react';
 import {
   View,

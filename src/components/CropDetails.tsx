@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native
 import { Ionicons } from '@expo/vector-icons';
 import moment from 'moment';
 import { useNavigation } from '@react-navigation/native';
-import type { StackNavigationProp } from '@react-navigation/stack';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 import { horizontalScale, moderateScale, verticalScale, SPACING } from '../utils/metrics';
 import { colors } from '../utils/colors';
@@ -16,7 +16,7 @@ type RootStackParamList = {
   // Add other screens here as needed
 };
 
-type NavigationProp = StackNavigationProp<RootStackParamList>;
+type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
 interface CropDetailCardProps {
   crop: CropCalendar;

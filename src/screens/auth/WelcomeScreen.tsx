@@ -1,4 +1,3 @@
-// src/screens/auth/WelcomeScreen.tsx
 import React from 'react';
 import {
   View,

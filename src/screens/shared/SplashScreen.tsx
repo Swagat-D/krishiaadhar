@@ -1,4 +1,3 @@
-// src/screens/shared/SplashScreen.tsx
 import React, { useEffect } from 'react';
 import { View, Text, Image, StyleSheet, StatusBar, Animated } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
